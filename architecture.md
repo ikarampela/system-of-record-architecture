@@ -11,7 +11,7 @@ graph TB
 
     subgraph Inputs [Πηγές Δεδομένων]
         Registry[Μητρώο Συνεργατών]:::apps
-        Public Pro[Παρακολούθηση Συμβάσεων]:::apps
+        Public_Pro[Παρακολούθηση Συμβάσεων]:::apps
     end
 
     subgraph Ops [Επιχειρησιακά Υποσυστήματα]
