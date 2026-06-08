@@ -5,7 +5,7 @@ graph TB
     classDef apps fill:#fff,stroke:#333,stroke-width:2px;
     classDef finance fill:#dfd,stroke:#333,stroke-width:2px;
 
-    subgraph Core_System [<b>System of Record (SoR)</b>]
+    subgraph Core_System [<b>System of Record(SoR)</b>]
         SOR[<b>Κεντρικό SoR</b><br/>Master Data & Logic]:::sor
     end
 
