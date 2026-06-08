@@ -34,9 +34,10 @@ graph TB
     SOR <-->|API: Purchase Orders| Procure
 
     TS -.->|Approved Hours| Pay
-```
+
     Travel -.->|Approved Expenses| Pay
     
     Pay -->|Payroll Data| ERP
     SOR -->|Accounting Entries| ERP
     Procure -->|Invoices| ERP
+```
